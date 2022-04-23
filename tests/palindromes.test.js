@@ -1,4 +1,4 @@
-const palidromes = require('./palindromes');
+const palidromes = require('../src/palindromes');
 
 describe('palindromes', () => {
     it('correctly identifies one-word palindromes', () => {
