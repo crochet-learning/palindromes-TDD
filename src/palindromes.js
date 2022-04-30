@@ -1,7 +1,8 @@
 const reverseString = (str) => {
-  const array = str.split('');
-  const reverseArray = array.reverse();
-  return reverseArray.join('');
+  return str
+    .split('')
+    .reverse()
+    .join('');
 };
 
 const isPalindrome = (str) => {
