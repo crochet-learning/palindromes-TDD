@@ -8,6 +8,5 @@ module.exports = {
   },
   rules: {
     quotes: ['error', 'single', { avoidEscape: true }],
-    'arrow-parens': ['as-needed'],
   },
 };
