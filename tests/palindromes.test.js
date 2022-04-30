@@ -6,6 +6,10 @@ describe('palindromes', () => {
     expect(palidromes('racecar')).toEqual(['racecar']);
   });
 
+  it('returns an empty array when no palindrome is present', () => {
+    expect(palidromes('tic tac toe')).toEqual([]);
+  });
+
   it('ignores casing', () => {
     expect(palidromes('WoW')).toEqual(['wow']);
   });

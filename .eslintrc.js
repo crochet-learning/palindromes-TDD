@@ -1,12 +1,13 @@
 module.exports = {
-    extends: ['eslint:recommended'],
-    parserOptions: {
-        ecmaVersion: 6
-    },
-    env: {
-        node: true
-    },
-    rules: {
-        quotes: ['error', 'single', { avoidEscape: true}]
-    }
+  extends: ['eslint:recommended'],
+  parserOptions: {
+    ecmaVersion: 6,
+  },
+  env: {
+    node: true,
+  },
+  rules: {
+    quotes: ['error', 'single', { avoidEscape: true }],
+    'arrow-parens': ['as-needed'],
+  },
 };
