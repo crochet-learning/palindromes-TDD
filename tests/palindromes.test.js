@@ -20,7 +20,7 @@ describe('palindromes', () => {
 
   it('detects multi-word palindromes', () => {
     expect(palidromes('A man, a plan, a canal, Panama')).toEqual([
-      'amanaplanacanalpanama',
+      'amanaplanacanalpanama'
     ]);
   });
 });
